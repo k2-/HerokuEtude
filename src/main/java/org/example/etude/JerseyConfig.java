@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class JerseyConfig extends ResourceConfig {
 
     public JerseyConfig() {
-        packages("org.example.etude");
+        register(HelloResource.class);
     }
 
 }
