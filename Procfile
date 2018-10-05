@@ -1,1 +1,1 @@
-web: java -jar target/etude-1.0.jar
+web: java -jar build/libs/etude-0.0.1-SNAPSHOT.jar
